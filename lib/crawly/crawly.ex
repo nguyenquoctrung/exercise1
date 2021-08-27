@@ -1,6 +1,5 @@
 defmodule DemoCrawly do
   use Crawly.Spider
-  alias Crawly.Utils
   @impl Crawly.Spider
 
   def base_url(), do: "https://phephims.net"
